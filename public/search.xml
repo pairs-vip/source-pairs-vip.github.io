@@ -8,9 +8,21 @@
       <link href="/2025/06/25/test/"/>
       <url>/2025/06/25/test/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ul><li><p>首先，我测试一段文字</p></li><li><p>然后，我将插入图片</p><p><img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg" alt="img" loading="lazy" class="φbp"></p></li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
       
     </entry>
     

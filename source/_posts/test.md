@@ -1,8 +1,8 @@
 ---
 tags:
-  - null
+  - test
 categories:
-  - null
+  - test
 author: zmu
 top: false
 cover: /images/default-cover.jpg
@@ -11,7 +11,6 @@ comments: true
 date: 2025-06-25 10:18:22
 updated: 2025-06-25 10:18:22
 title: test
-abbrlink:s
 ---
 
 + 首先，我测试一段文字

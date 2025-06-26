@@ -23,9 +23,26 @@
     <published>2025-06-25T02:18:22.000Z</published>
     <updated>2025-06-25T02:18:22.000Z</updated>
     
+    <content type="html"><![CDATA[<ul><li><p>首先，我测试一段文字</p></li><li><p>然后，我将插入图片</p><p><img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg" alt="img" loading="lazy" class="φbp"></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先，我测试一段文字&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后，我将插入图片&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/s</summary>
+      
     
     
     
+    <category term="test" scheme="http://example.com/categories/test/"/>
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
     
   </entry>
   
