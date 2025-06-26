@@ -18,4 +18,4 @@ abbrlink:s
 
 + 然后，我将插入图片
 
-  
+  ![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg)
