@@ -1,5 +1,3 @@
-
-
 ---
 tags:
   - docker
@@ -23,7 +21,7 @@ title: dcoker离线安装gitlab以及jfrog
 下载地址：https://download.docker.com/linux/static/stable/x86_64/
 阿里云镜像网站：https://mirrors.aliyun.com/docker-ce/linux/static/stable/x86_64/
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161519617.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161519617.png" style=" margin: 0 15px 10px 0;float: left" />
 
 （2）解压与拷贝
 解压并把文件复制到/usr/bin目录下：
@@ -82,7 +80,7 @@ systemctl enable docker
 systemctl status docker
 ```
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161641829.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161641829.png" style=" margin: 0 15px 10px 0;float: left" />
 
 ## 1.4 修改docker配置文件
 
@@ -117,7 +115,7 @@ systemctl restart docker
 docker -v
 ```
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161750754.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702161750754.png" style=" margin: 0 15px 10px 0;float: left" />
 
 
 
@@ -133,11 +131,10 @@ docker pull gitlab/gitlab-ce
 # 或指定版本
 docker pull gitlab/gitlab-ce:17.5.0-ce.0
 # 查看镜像
-docker images
+docker images 
 ```
 
- ![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png)
-
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png" style="width: 60%; display: block;margin: 0 15px 10px 0;" />
 保存镜像
 
 ```bash
@@ -158,7 +155,7 @@ docker load -i gitlab.tar
 docker images
 ```
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png" style="width: 60%; display: block;margin: 0 15px 10px 0;" />
 导入成功
 
 ## 2.3 docker启动gitlab容器并修改配置文件
@@ -194,7 +191,7 @@ gitlab/gitlab-ce:17.7.0-ce.0
 docker ps -a
 ```
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702154608890.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702154608890.png" style=" margin: 0 15px 10px 0;float: left" />
 
 （3）容器启动之后，编辑/data/gitlab/config/gitlab.rb文件
 
@@ -207,7 +204,7 @@ gitlab_rails['gitlab_shell_ssh_port'] = 8013
 
 然后进入容器
 
- ![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702154802450.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702154802450.png" style=" margin: 0 15px 10px 0;float: left" />
 
 ```bash
 # 执行更新配置操作
@@ -237,7 +234,7 @@ cat /data/gitlab/config/initial_root_password
 
 **登录root用户=>点击用户头像=>Edit profile=>Password** 
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702155859246.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702155859246.png" style=" margin: 0 15px 10px 0;float: left" />
 
 ## 2.5 GitLab中文界面设置
 
@@ -245,7 +242,7 @@ cat /data/gitlab/config/initial_root_password
 在Preferences页面中，找到“Localization”区域，将“Language”选项修改为“简体中文”。
 点击页面下方的“Save changes”按钮，保存语言设置。
 
-![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702160237214.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702160237214.png" style=" margin: 0 15px 10px 0;float: left" />
 
 
 
@@ -262,7 +259,7 @@ docker pull docker.bintray.io/jfrog/artifactory-oss:latest
 docker images
 ```
 
- ![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png" style="width: 60%; display: block;margin: 0 15px 10px 0;" />
 
 保存镜像
 
@@ -283,7 +280,7 @@ docker load -i jfrog.tar
 docker images
 ```
 
- ![img](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png)
+<img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/docker离线安装gitlab以及jfrog/image-20250702153841956.png" style="width: 60%; display: block;margin: 0 15px 10px 0;" />
 导入成功
 
 ## 3.3 docker启动jfrog容器并修改配置文件
