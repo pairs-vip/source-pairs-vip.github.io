@@ -5,7 +5,7 @@ categories:
   - test
 author: zmu
 top: false
-cover: /images/default-cover.jpg
+cover: https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg
 toc: true
 comments: true
 date: 2025-06-25 10:18:22

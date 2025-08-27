@@ -10,7 +10,7 @@ toc: true
 comments: true
 date: 2025-07-02 16:55:00
 updated: 2025-07-02 16:55:00
-title: dcoker离线安装gitlab以及jfrog
+title: Dcoker离线安装Gitlab以及Jfrog
 ---
 
 # 一、Linux离线配置docker
