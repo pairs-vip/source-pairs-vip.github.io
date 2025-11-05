@@ -243,3 +243,27 @@ public Page<AbstractPart> getDesignPartByFolder(String folderId,DeliveryBomDTO q
 }
 ```
 
+#### 7.接口接收附件，单个以及多个写法（参数使用MultipartFile[]不对，要使用`List<MultipartFile>`)
+
+```java
+// 多个附件
+@Operation(summary = "上传文件")
+@PostMapping(
+    value = "/data-package/import",
+    consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
+    name = "数据包批量导入处理")
+public ResponseEntity<?> upload(
+    @RequestParam(value = "fileList", required = false) List<MultipartFile> fileList) {
+}
+
+// 单个附件
+@Operation(summary = "上传文件")
+@PostMapping(
+    value = "/data-package/import",
+    consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
+    name = "数据包批量导入处理")
+public ResponseEntity<?> upload(
+    @RequestParam(value = "file", required = false) MultipartFile file) {
+}
+```
+
