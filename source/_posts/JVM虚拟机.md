@@ -5,7 +5,12 @@ tags:
   - JVM
   - GC
 categories:
-  - Java
+  - dev
+author: pairs
+top: false
+cover: /images/default-cover.jpg
+toc: true
+comments: true
 ---
 
 # JVM 虚拟机

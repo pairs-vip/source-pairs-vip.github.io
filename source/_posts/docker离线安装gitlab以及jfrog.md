@@ -3,14 +3,14 @@ tags:
   - docker
 categories:
   - ops
-author: zmu
+author: pairs
 top: false
 cover: /images/default-cover.jpg
 toc: true
 comments: true
 date: 2025-07-02 16:55:00
 updated: 2025-07-02 16:55:00
-title: Dcoker离线安装Gitlab以及Jfrog
+title: Docker离线安装Gitlab以及Jfrog
 ---
 
 # 一、Linux离线配置docker

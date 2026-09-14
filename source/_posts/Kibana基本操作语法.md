@@ -4,7 +4,7 @@ tags:
   - kibana
 categories:
   - ops
-author: zmu
+author: pairs
 top: false
 cover: /images/default-cover.jpg
 toc: true

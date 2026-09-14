@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: zmu
-language: en
-timezone: ''
+title: Pairs' Blog
+subtitle: '记录技术成长'
+description: '一个Java开发者的博客'
+keywords: Java, Spring, Docker, JVM, 微服务
+author: pairs
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://pairs-vip.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
