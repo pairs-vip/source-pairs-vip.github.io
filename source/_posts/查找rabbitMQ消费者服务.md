@@ -29,7 +29,7 @@ title: 查找rabbitMQ消费者服务
 
 2.通过详情可以看到消费者都有谁，例如我这里只有一个消费者，此时消费者ip后面跟的端口不是服务端口，是消费者服务通道端口
 
-![rabbitMQ消费者信息](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/rabbitmq/rabbitMQ消费者信息.png)
+![rabbitMQ消费者信息](https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/rabbitmq/rabbitmq消费者信息.png)
 
 3.接下来通过消费者通道端口查询消费者服务进程号
 
