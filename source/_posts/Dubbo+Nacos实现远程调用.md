@@ -526,12 +526,12 @@ mvn clean install
 
 ##### 9.附件：
 
-✅ **maven软件包：<a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/apache-maven-3.6.3.rar" download="apache-maven-3.6.3.rar">
+✅ **maven软件包：<a href="https://github.com/pairs-vip/source-pairs-vip.github.io/releases/download/assets/apache-maven-3.6.3.rar" download="apache-maven-3.6.3.rar">
   apache-maven-3.6.3.rar</a>**
-✅ **nacos部署包：  <a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/nacos-server-2.2.0.zip" download="nacos-server-2.2.0.zip">
+✅ **nacos部署包：  <a href="https://github.com/pairs-vip/source-pairs-vip.github.io/releases/download/assets/nacos-server-2.2.0.zip" download="nacos-server-2.2.0.zip">
   nacos-server-2.2.0.zip
 </a>**
-✅ **demo源码包：  <a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/dubbo-nacos-demo.rar" download="dubbo-nacos-demo.rar">
+✅ **demo源码包：  <a href="https://github.com/pairs-vip/source-pairs-vip.github.io/releases/download/assets/dubbo-nacos-demo.rar" download="dubbo-nacos-demo.rar">
   dubbo-nacos-demo.rar
 </a>**
 
