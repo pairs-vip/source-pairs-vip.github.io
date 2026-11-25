@@ -1,0 +1,5 @@
+# 依赖与生成产物（均可随时重建，不纳入版本管理）
+node_modules/
+public/
+db.json
+.deploy_git/
