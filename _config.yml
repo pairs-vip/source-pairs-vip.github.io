@@ -98,6 +98,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-inside
 
+# 主题配置覆盖：页签图标使用头像裁切的 PNG
+theme_config:
+  favicon: favicon.png
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
