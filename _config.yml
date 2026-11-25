@@ -98,9 +98,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-inside
 
-# 主题配置覆盖：页签图标使用头像裁切的 PNG
+# 主题配置覆盖：页签图标使用头像裁切的 PNG；toc 深度 4（笔记多为 h4 层级标题）
 theme_config:
   favicon: favicon.png
+  toc:
+    depth: 4
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
